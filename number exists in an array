@@ -1,0 +1,14 @@
+var arr = [10, 20, 30, 40, 50];
+let tarno = 10;
+let exists = false;
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] === tarno) {
+    exists = true;
+    break; 
+  }
+}
+if (exists) {
+  console.log("the number", tarno, "exists");
+} else {
+  console.log("the number", tarno, "does not exist");
+}
