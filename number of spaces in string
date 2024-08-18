@@ -1,0 +1,8 @@
+var str = "Madhu Mitha Madhavan";
+var spaceCount = 0;
+for (var i = 0; i < str.length; i++) {
+    if (str[i] === " ") {
+        spaceCount++;
+    }
+}
+console.log("spaces of string:", spaceCount);
