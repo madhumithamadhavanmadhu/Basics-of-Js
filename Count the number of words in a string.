@@ -1,0 +1,11 @@
+function __count__(str) {
+    const trimmedStr = str.trim();
+    if (trimmedStr === "") {
+        return 0;
+    }
+    const wordsArray = trimmedStr.split(/\s+/);
+    return wordsArray.length;
+}
+const text = "Thanks for giving this program to me";
+const wordCount = __count__(text);
+console.log(wordCount);
